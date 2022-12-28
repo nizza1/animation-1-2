@@ -1,0 +1,37 @@
+.box {
+     width: 90vw;
+     height: 250px;
+     background-color: beige;
+     border: 2px solid black;
+     padding: 1em;
+     border-radius: 1em;
+     position: relative;
+}
+
+.green {
+    position: absolute;
+    top: 10%;
+    width: 15%;
+    height: 35%;
+    background-color: rgb(74, 123, 0);
+    transition: transform 1.5s linear;
+   
+}
+
+.red {
+    position: absolute;
+    bottom: 10%;
+    width: 15%;
+    height: 35%;
+    background-color: rgb(241, 68, 20);
+    transition: transform 1.5s ease-in-out;
+    transition-property: all;
+
+}
+
+.box:hover .squer {
+    transform: translateX(75vw);
+
+
+
+}
